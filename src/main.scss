@@ -1,0 +1,34 @@
+body {
+    /*background-color: #000000;*/
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    max-width: 70%;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.red {
+    background-color: #e74c3c;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+.green {
+    background-color: #2ecc71;
+    transition: background-color 1s ease;
+}
+
+.blue {
+    background-color: #3498db;
+    transition: background-color 1s ease;
+}
