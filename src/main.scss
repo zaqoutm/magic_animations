@@ -39,18 +39,28 @@ section {
   box-shadow: 0 0 21px 0px #ddd;
 }
 
+.red,
+.green,
+.blue {
+  transition: all 0.5s ease-in;
+  border: 1px solid #fff;
+}
+
+.out {
+  transition: all 1s ease-out;
+}
+
 .red {
   background-color: #e74c3c;
   color: white;
-  transition: background-color 1s ease;
 }
 
 .green {
   background-color: #2ecc71;
-  transition: background-color 1s ease;
+  border-color: #007531;
+  border-radius: 8px;
 }
 
 .blue {
   background-color: #3498db;
-  transition: background-color 1s ease;
 }
