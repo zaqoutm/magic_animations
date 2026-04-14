@@ -6,7 +6,7 @@ new ScrollMagic({
 });
 
 // animate green section
-const green = new ScrollMagic({
+new ScrollMagic({
   element: ".green-section",
   containerStart: "center",
   containerEnd: "center",

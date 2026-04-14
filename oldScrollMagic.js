@@ -2,7 +2,7 @@ import ScrollMagic from "scrollmagic";
 import "scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min";
 
 // 1. create controller
-var controller = new ScrollMagic.Controller({ addIndicators: false });
+const controller = new ScrollMagic.Controller({ addIndicators: false });
 
 // 2.  creat scenes
 new ScrollMagic.Scene({
